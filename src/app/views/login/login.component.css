@@ -1,0 +1,17 @@
+input.clear_tb{
+    background: none;
+    /*border: 1px solid red;*/
+    border: none;
+    text-align: center;
+    color:mediumslateblue;
+    font-family: Monaco;
+}
+
+button.clear_bt{
+    background: none;
+    /*border: 1px solid red;*/
+    border: none;
+    text-align: center;
+    color:hotpink;
+    font-family: Monaco;
+}

@@ -1,0 +1,22 @@
+<table style="margin: auto;margin-top: 14%;">
+  <tr>
+    <td>
+      <div>
+        <p style="text-align: center; color:red; font-family: Monaco; margin-bottom: -60px;">{{ result }}</p>
+      </div>
+      <div>
+        <img src="/assets/image/login-pad.png">
+      </div>
+        <div style="margin-top: -178px; margin-left: 180px;">
+          <input [(ngModel)] ="username" type="text" class="clear_tb">
+        </div>
+        <div style="margin-top: 11px; margin-left: 180px;">
+          <input [(ngModel)] ="password" type="password" class="clear_tb">
+        </div>
+        <div>
+          <button class="clear_bt" style="margin-left: 221px;margin-top: 10px;" (click)="LoginHandler()">Link Start</button>
+        </div>
+      </td>
+  </tr>
+</table>
+
